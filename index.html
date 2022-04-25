@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="navPart1">
+                <div> CodeEditor <span id="nameSpan">By Ashish</span> </div>
+                <button class="run"> Run </button>
+
+                <div class="live"> <label for="live">Live</label>
+                    <input type="checkbox" id="live">
+                </div>
+            </div>
+            <div id="navPart3">
+                <button id="themebtn"><span id="themeSpan">T</span>heme </button>
+
+                <div>
+
+                    <button id="fontplus">Font+</button><button id="fontminus">Font-</button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="codeEditorSec">
+
+        <div id="inputSecContainer">
+            <span id="titleInput"> Write your Code below..</span>
+            <div class="inputSecBox" contenteditable="">
+            </div>
+
+        </div>
+
+        <div id="dragDiv" title="Click and Drag"></div>
+
+        <div id="outputSecContainer">
+            <span id="titleOutput"> Check the response..</span>
+
+            <iframe src="" frameborder="0" class="iframe"></iframe>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
